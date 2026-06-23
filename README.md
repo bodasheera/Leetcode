@@ -12,4 +12,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/bodasheera/Leetcode/tree/master/0203-remove-linked-list-elements) |
+## Array
+|  |
+| ------- |
+| [0078-subsets](https://github.com/bodasheera/Leetcode/tree/master/0078-subsets) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/bodasheera/Leetcode/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/bodasheera/Leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
