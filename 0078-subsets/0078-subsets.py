@@ -18,7 +18,6 @@ class Solution:
 
             solve(input, op1, arr)
             solve(input, op2, arr)
-            return arr
 
         result = []
         solve(nums, [], result)
