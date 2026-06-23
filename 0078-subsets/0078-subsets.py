@@ -7,7 +7,7 @@ class Solution:
 
             if len(input) == 0:
                 arr.append(output)
-                return arr
+                return
 
             op1 = output.copy()
             op2 = output.copy()
@@ -18,6 +18,8 @@ class Solution:
 
             solve(input, op1, arr)
             solve(input, op2, arr)
+
+            return
 
         result = []
         solve(nums, [], result)
