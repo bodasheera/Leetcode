@@ -1,26 +1,20 @@
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         
+            counter = [0] * (100 + 1)
 
-        sorted_nums = sorted(nums)
-        # 1,2,2,3,8
+            for n in nums:
+                counter[n] = counter[n] + 1
 
-        pos = {}
 
-        i = 0
+            running_sum = [0] * (100 + 1)
 
-        while i < len(sorted_nums):
-            if pos.get(sorted_nums[i] , -1) == - 1:
-                pos[sorted_nums[i]] =  i
-            i += 1
+            for i in range(1, 101):
+                running_sum[i] = counter[i-1] + running_sum[i-1]
 
-        res = []
+            res = []
 
-        for n in nums:
-            res.append(pos[n])
+            for n in nums:
+                res.append(running_sum[n])
 
-        return res
-
-        
-
-            
+            return res
