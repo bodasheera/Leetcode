@@ -8,16 +8,17 @@ class Solution:
                 res.add(tuple(output))
                 return
 
-            
-            op1 = output.copy()
-            op2 = output.copy()
 
-            op2.append(input[0])
+            curr_input = input[0]
 
             input = input[1:]
 
-            solve(input, op1, res)
-            solve(input, op2, res)
+            solve(input, output, res)
+
+            output.append(curr_input)
+            solve(input, output, res)
+
+            output.pop()
             return
 
         res = set()
