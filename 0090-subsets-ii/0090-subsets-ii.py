@@ -2,21 +2,18 @@ class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         
 
-        def solve(input, output, res):
+        def solve(index, output, res):
 
-            if len(input) == 0 :
+            if index == len(nums) :
                 res.add(tuple(output))
                 return
 
 
-            curr_input = input[0]
 
-            input = input[1:]
+            solve(index+1, output, res)
 
-            solve(input, output, res)
-
-            output.append(curr_input)
-            solve(input, output, res)
+            output.append(nums[index])
+            solve(index+1, output, res)
 
             output.pop()
             return
@@ -25,6 +22,6 @@ class Solution:
 
         nums.sort()
 
-        solve(nums, [], res)
+        solve(0, [], res)
 
         return [list(r) for r in res]
