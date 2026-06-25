@@ -25,12 +25,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/bodasheera/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/bodasheera/Leetcode/tree/master/0090-subsets-ii) |
+| [0784-letter-case-permutation](https://github.com/bodasheera/Leetcode/tree/master/0784-letter-case-permutation) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0078-subsets](https://github.com/bodasheera/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/bodasheera/Leetcode/tree/master/0090-subsets-ii) |
 | [0231-power-of-two](https://github.com/bodasheera/Leetcode/tree/master/0231-power-of-two) |
+| [0784-letter-case-permutation](https://github.com/bodasheera/Leetcode/tree/master/0784-letter-case-permutation) |
 ## Hash Table
 |  |
 | ------- |
@@ -48,4 +50,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/bodasheera/Leetcode/tree/master/0231-power-of-two) |
+## String
+|  |
+| ------- |
+| [0784-letter-case-permutation](https://github.com/bodasheera/Leetcode/tree/master/0784-letter-case-permutation) |
 <!---LeetCode Topics End-->
