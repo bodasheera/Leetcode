@@ -3,7 +3,7 @@ class Solution:
         
 
         l = 0
-        avg = float("-inf")
+        max_total = float("-inf")
         total = 0
 
         for r in range(len(nums)):
@@ -12,8 +12,8 @@ class Solution:
 
             if r - l + 1 == k:
 
-                avg = max(avg , total/k)
+                max_total = max(max_total , total)
                 total = total - nums[l]
                 l += 1
 
-        return avg
+        return max_total/k
