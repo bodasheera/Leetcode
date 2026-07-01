@@ -1,5 +1,8 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
+
+        if len(s) != len(t) :
+            return False
         
         hashmap = {}
 
@@ -8,13 +11,10 @@ class Solution:
 
         for c in t:
 
-            if c not in hashmap:
+            if c not in hashmap or hashmap[c] == 0:
                 return False
             else:
                 hashmap[c] -= 1
 
-                if hashmap[c] < 0:
-                    return False
-
         
-        return True if max(hashmap.values()) == 0 else False
+        return True
