@@ -6,24 +6,21 @@ class Solution:
         m = len(text2)
         t = [[-1] * (m+1) for _ in range(n+1)]
 
-        return self.LCS(text1, text2, n , m, t)
+        for i in range(n+1):
+            t[i][0] = 0
 
+        for j in range(m+1):
+            t[0][j] = 0
 
-    def LCS(self, X, Y , n , m, t):
+        for i in range(1, n+1):
+            for j in range(1, m+1):
 
-        # base case
-        if n == 0 or m == 0:
-            return 0
+                if text1[i-1] == text2[j-1]:
+                    t[i][j] = 1 + t[i-1][j-1]
+                
+                elif text1[i-1] != text2[j-1]:
+                    c1 = t[i-1][j]
+                    c2 = t[i][j-1]
+                    t[i][j] = max(c1, c2)
 
-        if t[n][m] != -1:
-            return t[n][m]
-
-        elif X[n-1] == Y[m-1]:
-            t[n][m] =  1 + self.LCS(X, Y, n-1, m-1, t)
-            return t[n][m]
-
-        elif X[n-1] != Y[m-1]:
-            c1 = self.LCS(X, Y , n-1, m, t)
-            c2 = self.LCS(X, Y, n, m-1, t)
-            t[n][m] = max(c1, c2)
-            return t[n][m]
+        return t[n][m]
