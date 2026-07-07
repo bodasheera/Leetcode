@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/bodasheera/Leetcode/tree/master/0022-generate-parentheses) |
 | [0242-valid-anagram](https://github.com/bodasheera/Leetcode/tree/master/0242-valid-anagram) |
 | [0784-letter-case-permutation](https://github.com/bodasheera/Leetcode/tree/master/0784-letter-case-permutation) |
+| [1143-longest-common-subsequence](https://github.com/bodasheera/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/bodasheera/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Dynamic Programming
 |  |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/bodasheera/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/bodasheera/Leetcode/tree/master/0518-coin-change-ii) |
 | [1049-last-stone-weight-ii](https://github.com/bodasheera/Leetcode/tree/master/1049-last-stone-weight-ii) |
+| [1143-longest-common-subsequence](https://github.com/bodasheera/Leetcode/tree/master/1143-longest-common-subsequence) |
 ## Queue
 |  |
 | ------- |
