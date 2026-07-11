@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/bodasheera/Leetcode/tree/master/0022-generate-parentheses) |
 | [0242-valid-anagram](https://github.com/bodasheera/Leetcode/tree/master/0242-valid-anagram) |
+| [0583-delete-operation-for-two-strings](https://github.com/bodasheera/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0784-letter-case-permutation](https://github.com/bodasheera/Leetcode/tree/master/0784-letter-case-permutation) |
 | [1143-longest-common-subsequence](https://github.com/bodasheera/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/bodasheera/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/bodasheera/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/bodasheera/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/bodasheera/Leetcode/tree/master/0518-coin-change-ii) |
+| [0583-delete-operation-for-two-strings](https://github.com/bodasheera/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/bodasheera/Leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1049-last-stone-weight-ii](https://github.com/bodasheera/Leetcode/tree/master/1049-last-stone-weight-ii) |
 | [1143-longest-common-subsequence](https://github.com/bodasheera/Leetcode/tree/master/1143-longest-common-subsequence) |
