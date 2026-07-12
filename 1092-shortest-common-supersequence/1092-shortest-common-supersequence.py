@@ -26,7 +26,7 @@ class Solution:
 
         i = n
         j = m 
-        res = ""
+        res = []
 
         while i > 0 and j > 0:
 
@@ -38,11 +38,11 @@ class Solution:
             elif str1[i-1] != str2[j-1]:
 
                 if t[i-1][j] >= t[i][j-1]:
-                    res = res + str1[i-1]
+                    res.append(str1[i-1])
                     i = i - 1
 
                 elif t[i][j-1] > t[i-1][j]:
-                    res = res + str2[j-1]
+                    res.append(str2[j-1])
                     j = j - 1
 
         
@@ -51,11 +51,11 @@ class Solution:
         # scs of "ab" and "" is "ab"
 
         while i > 0:
-            res = res + str1[i-1]
+            res.append(str1[i-1])
             i -= 1
 
         while j > 0:
-            res = res + str2[j-1]
+            res.append(str2[j-1])
             j -= 1
 
-        return res[::-1]
+        return "".join(res[::-1])
