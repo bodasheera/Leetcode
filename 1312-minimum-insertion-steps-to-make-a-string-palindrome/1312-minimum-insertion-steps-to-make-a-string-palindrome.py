@@ -23,6 +23,8 @@ class Solution:
         # its actually lps 
         lps = t[n][m]
 
+        # this is actually min deletions 
+        # but its same as min insertions
         return n - lps
 
 
