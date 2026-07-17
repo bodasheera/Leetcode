@@ -8,19 +8,16 @@ class Solution:
 
         # simple palindrome memoization
 
-        dp = [[False] * (n+1) for _ in range(n+1)]
+        dp = [[True] * (n+1) for _ in range(n+1)]
         
         for i in range(n - 1, -1 , -1):
             for j in range(i , n):
 
-                # one ele 
-                # a , aa, aba all are palidromes 
-                if s[i] == s[j] and j-i <= 2:
-                    dp[i][j] = True
-
                 # hypothesis and induction
                 if s[i] == s[j] and dp[i+1][j-1]:
                     dp[i][j] = True
+                else:
+                    dp[i][j] = False
 
         def solve(i):
 
