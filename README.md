@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/bodasheera/Leetcode/tree/master/0022-generate-parentheses) |
+| [0132-palindrome-partitioning-ii](https://github.com/bodasheera/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0242-valid-anagram](https://github.com/bodasheera/Leetcode/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/bodasheera/Leetcode/tree/master/0392-is-subsequence) |
 | [0516-longest-palindromic-subsequence](https://github.com/bodasheera/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/bodasheera/Leetcode/tree/master/0022-generate-parentheses) |
+| [0132-palindrome-partitioning-ii](https://github.com/bodasheera/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0322-coin-change](https://github.com/bodasheera/Leetcode/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/bodasheera/Leetcode/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/bodasheera/Leetcode/tree/master/0416-partition-equal-subset-sum) |
