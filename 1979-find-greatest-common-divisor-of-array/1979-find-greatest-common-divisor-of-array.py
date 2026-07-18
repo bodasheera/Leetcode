@@ -16,9 +16,11 @@ class Solution:
 
         def gcd(x, y):
 
+            # base case
             if y == 0:
                 return x
 
+            #hypothesis + induction
             return gcd( y , x % y)
 
         return gcd(b , a)
