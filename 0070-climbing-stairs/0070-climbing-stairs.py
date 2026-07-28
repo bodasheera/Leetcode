@@ -1,13 +1,24 @@
-from functools import cache
+# Memoization
 
 class Solution:
 
-    @cache
-    def climbStairs(self, n: int) -> int:
-        
-        # base case 
-        if n <= 2:
-            return n
 
-        # hypothesis + induction
-        return self.climbStairs(n-2) + self.climbStairs(n-1)
+
+    def climbStairs(self, n: int) -> int:
+
+        t = [-1] * (n+1) 
+
+        def solve(n):
+            
+            # base case 
+            if n <= 2:
+                return n
+
+            if t[n] != -1:
+                return t[n]
+
+            # hypothesis + induction
+            t[n] =  solve(n-2) + solve(n-1)
+            return t[n]
+
+        return solve(n)
