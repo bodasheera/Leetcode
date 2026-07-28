@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/bodasheera/Leetcode/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/bodasheera/Leetcode/tree/master/0231-power-of-two) |
 | [0628-maximum-product-of-three-numbers](https://github.com/bodasheera/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/bodasheera/Leetcode/tree/master/1823-find-the-winner-of-the-circular-game) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/bodasheera/Leetcode/tree/master/0022-generate-parentheses) |
+| [0070-climbing-stairs](https://github.com/bodasheera/Leetcode/tree/master/0070-climbing-stairs) |
 | [0132-palindrome-partitioning-ii](https://github.com/bodasheera/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0322-coin-change](https://github.com/bodasheera/Leetcode/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/bodasheera/Leetcode/tree/master/0392-is-subsequence) |
@@ -148,4 +150,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/bodasheera/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/bodasheera/Leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
