@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/bodasheera/Leetcode/tree/master/0242-valid-anagram) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/bodasheera/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/bodasheera/Leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/bodasheera/Leetcode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## Sorting
 |  |
 | ------- |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/bodasheera/Leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/bodasheera/Leetcode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## Math
 |  |
 | ------- |
@@ -92,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1092-shortest-common-supersequence](https://github.com/bodasheera/Leetcode/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/bodasheera/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/bodasheera/Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/bodasheera/Leetcode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/bodasheera/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Dynamic Programming
 |  |
@@ -127,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/bodasheera/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/bodasheera/Leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/bodasheera/Leetcode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## Breadth-First Search
 |  |
 | ------- |
