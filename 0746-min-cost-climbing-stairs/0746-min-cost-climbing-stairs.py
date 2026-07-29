@@ -1,9 +1,11 @@
-from functools import cache
+
 
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
         
-        @cache
+        n = len(cost)
+
+        t = [-1] * (n+1)
         def solve(n):
 
             # base case
@@ -12,6 +14,9 @@ class Solution:
 
             if n == 1:
                 return 0
+
+            if t[n] != -1:
+                return t[n]
 
             # hypothesis
 
@@ -22,12 +27,9 @@ class Solution:
             c2 = cost[n-2] + solve(n-2)
 
             # induction
-            return min(c1, c2)
+            t[n] = min(c1, c2)
 
-
-
-        
-
-        n = len(cost)
+            return t[n]
+ 
 
         return solve(n)
