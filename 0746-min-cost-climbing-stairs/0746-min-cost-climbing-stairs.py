@@ -6,19 +6,22 @@ class Solution:
         n = len(cost)
 
         t = [-1] * (n+1)
+
         def solve(n):
 
             # base case
-            if n <= 0:
-                return 0
+            # when we start no cost 
+            # we can start at 0 and 1
 
-            if n == 1:
+            if n <= 1:
                 return 0
 
             if t[n] != -1:
                 return t[n]
 
             # hypothesis
+            # we can end at n or n-1
+            # pay the cost and solve for smaller input 
 
             # use n and solve smaller input
             c1 = cost[n-1] + solve(n-1) 
