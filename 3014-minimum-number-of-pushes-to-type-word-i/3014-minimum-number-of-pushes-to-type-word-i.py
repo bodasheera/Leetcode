@@ -15,6 +15,7 @@ class Solution:
 
             else:
                 pos += 1
+                pos = pos % 8
                 keys[pos] += 1
                 pos += 1
                 pos = pos % 8
