@@ -16,17 +16,21 @@ class Solution:
         i = 0
         while i < len(s):
 
-            if s[i] == 'I' and i+1<len(s) and s[i+1] in ('V', 'X'):
-                res = res + num_map[s[i+1]] - num_map[s[i]]
-                i += 2
+            # if s[i] == 'I' and i+1<len(s) and s[i+1] in ('V', 'X'):
+            #     res = res + num_map[s[i+1]] - num_map[s[i]]
+            #     i += 2
 
-            elif s[i] == 'X' and i+1<len(s) and s[i+1] in ('L', 'C'):
-                res = res + num_map[s[i+1]] - num_map[s[i]]
-                i += 2
+            # elif s[i] == 'X' and i+1<len(s) and s[i+1] in ('L', 'C'):
+            #     res = res + num_map[s[i+1]] - num_map[s[i]]
+            #     i += 2
 
-            elif s[i] == 'C' and i+1<len(s) and s[i+1] in ('D', 'M'):
-                res = res + num_map[s[i+1]] - num_map[s[i]]
-                i += 2
+            # elif s[i] == 'C' and i+1<len(s) and s[i+1] in ('D', 'M'):
+            #     res = res + num_map[s[i+1]] - num_map[s[i]]
+            #     i += 2
+            if i + 1 < len(s) and num_map[s[i]] < num_map[s[i+1]]:
+                res = res - num_map[s[i]]
+                i += 1
+
             else:
                 res = res + num_map[s[i]]
                 i += 1
