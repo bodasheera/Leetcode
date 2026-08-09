@@ -28,16 +28,17 @@ class Solution:
             # len of all elements in the queue
             qlen = len(q)
 
-            level_nodes = []
+            # for each level
+            res.append([])
 
             for i in range(qlen):
 
                 node = q.popleft()
 
                 if level % 2 == 0:
-                    level_nodes.append(node.val)
+                    res[level].append(node.val)
                 else:
-                    level_nodes.insert(0, node.val)
+                    res[level].insert(0, node.val)
 
                 if node.left:
                     q.append(node.left)
@@ -45,7 +46,6 @@ class Solution:
                 if node.right:
                     q.append(node.right)
 
-            res.append(level_nodes)
             level += 1
 
         return res
