@@ -5,7 +5,34 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+
+        if not root:
+            return []
+
+        stack = []
+        res = []
+
+        stack.append(root)
+
+        while stack:
+
+            top = stack.pop()
+            res.append(top.val)
+
+            if top.right:
+                stack.append(top.right)
+
+            if top.left:
+                stack.append(top.left)
+        
+        return res
+
+
+
+
+    def preorderTraversalDFS(self, root: Optional[TreeNode]) -> List[int]:
         
         
         def solve(root, res):
