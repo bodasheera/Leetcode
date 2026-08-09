@@ -4,10 +4,59 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+from collections import deque
+
 class Solution:
 
 
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+
+
+        if not root:
+            return []
+
+        queue = deque()
+
+        queue.append(root)
+
+        res = []
+
+        index = 0
+
+
+        while queue:
+
+            q_length = len(queue)
+
+            res.append([])
+
+            # why for loop and not while q 
+            # because we need to travese oly for current level
+            # children are being added to queue. so we can travel queue directly
+            for i in range(q_length):
+
+                ele = queue.popleft() # all nodes at each level
+
+                res[index].append(ele.val)
+
+                # add children
+                if ele.left:
+                    queue.append(ele.left)
+                if ele.right:
+                    queue.append(ele.right)
+
+            index += 1
+
+        return res
+
+
+
+
+
+
+
+    def levelOrderDFS(self, root: Optional[TreeNode]) -> List[List[int]]:
         
 
         res = []
