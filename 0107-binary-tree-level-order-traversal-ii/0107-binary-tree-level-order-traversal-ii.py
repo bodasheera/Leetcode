@@ -4,8 +4,50 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+from collections import deque
+
 class Solution:
+
     def levelOrderBottom(self, root: Optional[TreeNode]) -> List[List[int]]:
+
+        if not root:
+            return []
+
+        res = []
+        level = 0
+
+        q = deque()
+
+        q.append(root)
+
+        while q:
+
+            qlen = len(q)
+            res.append([])
+
+            for _ in range(qlen):
+
+                # add all nodes in a level in our res
+                node = q.popleft()
+                res[level].append(node.val)
+
+                # add children back in q
+                if node.left:
+                    q.append(node.left)
+
+                if node.right:
+                    q.append(node.right)
+
+            level += 1
+
+        return res[::-1]
+
+
+
+
+
+    def levelOrderBottomDFS(self, root: Optional[TreeNode]) -> List[List[int]]:
 
         if not root:
             return []
