@@ -4,8 +4,41 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque
+
 class Solution:
+
     def averageOfLevels(self, root: Optional[TreeNode]) -> List[float]:
+
+        avg = []
+        q = deque()
+        q.append(root)
+
+        while q:
+
+            qlen = len(q)
+            total = 0
+            
+            for _ in range(qlen):
+
+                node = q.popleft()
+                total += node.val
+
+                if node.left:
+                    q.append(node.left)
+
+                if node.right:
+                    q.append(node.right)
+
+            avg.append(total / qlen)
+
+        return avg
+
+
+
+
+
+    def averageOfLevelsDFS(self, root: Optional[TreeNode]) -> List[float]:
         
 
         res = []
