@@ -7,23 +7,24 @@
 class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         
-        self.total_nodes = 0
+        total_nodes = [0]
 
-        def height(node):
+        def height(node, total_nodes):
 
             # base case
             if node is None:
                 return 0
 
             # hypothesis
-            left = height(node.left)
-            right = height(node.right)
+            left = height(node.left, total_nodes)
+            right = height(node.right, total_nodes)
 
-            self.total_nodes = max(self.total_nodes , 1 + left + right)
+            total_nodes[0] = max(total_nodes[0] , 1 + left + right)
 
+            # induction
             return 1 + max(left, right)
 
-        height(root)
+        height(root, total_nodes)
 
-        return self.total_nodes - 1
+        return total_nodes[0] - 1
 
