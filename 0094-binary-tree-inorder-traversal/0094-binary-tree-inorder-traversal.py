@@ -9,6 +9,9 @@
 class Solution:
 
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+
+        if not root:
+            return []
        
         stack = []
         stack.append(root)
@@ -19,12 +22,13 @@ class Solution:
 
             node = stack.pop()
 
-            if node and node not in visited:
+            if node not in visited:
 
                 if node.right:
                     stack.append(node.right)
 
-                stack.append(node)
+                if node:
+                    stack.append(node)
 
                 if node.left:
                     stack.append(node.left)
@@ -32,7 +36,7 @@ class Solution:
 
                 visited.add(node)
 
-            elif node:
+            else:
                 res.append(node.val)
 
         return res
