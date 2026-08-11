@@ -27,8 +27,7 @@ class Solution:
                 if node.right:
                     stack.append(node.right)
 
-                if node:
-                    stack.append(node)
+                stack.append(node)
 
                 if node.left:
                     stack.append(node.left)
