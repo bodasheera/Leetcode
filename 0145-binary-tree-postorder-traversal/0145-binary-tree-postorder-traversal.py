@@ -7,6 +7,7 @@
 class Solution:
 
 
+
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
 
         if not root:
@@ -22,14 +23,16 @@ class Solution:
             node = stack.pop()
 
             if node not in visited:
-
+                
                 stack.append(node)
 
                 if node.right:
                     stack.append(node.right)
 
+
                 if node.left:
                     stack.append(node.left)
+
 
                 visited.add(node)
 
@@ -38,7 +41,7 @@ class Solution:
 
         return res
 
-    def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+    def postorderTraversalDFS(self, root: Optional[TreeNode]) -> List[int]:
        
         def solve(root, res):
 
