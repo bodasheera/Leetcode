@@ -6,9 +6,33 @@
 #         self.right = right
 class Solution:
 
-
-
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+
+        # Basically do preorder with a twist and return reverse
+
+        if not root:
+            return []
+
+        stack = []
+        res = []
+
+        stack.append(root)
+
+        while stack:
+
+            top = stack.pop()
+            res.append(top.val)
+
+            if top.left:
+                stack.append(top.left)
+
+            if top.right:
+                stack.append(top.right)
+        
+        return res[::-1]
+
+
+    def postorderTraversalBFS(self, root: Optional[TreeNode]) -> List[int]:
 
         if not root:
             return []
@@ -23,7 +47,7 @@ class Solution:
             node = stack.pop()
 
             if node not in visited:
-                
+
                 stack.append(node)
 
                 if node.right:
