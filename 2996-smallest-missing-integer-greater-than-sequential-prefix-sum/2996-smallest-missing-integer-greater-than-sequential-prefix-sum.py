@@ -16,13 +16,14 @@ class Solution:
 
             i += 1
 
-        while True:
+        num_set = set(nums)
 
-            if total not in nums:
-                return total
-            
-            else:
-                total = total + 1
+
+        while total in num_set:
+            total += 1
+
+        return total
+
 
 
         
