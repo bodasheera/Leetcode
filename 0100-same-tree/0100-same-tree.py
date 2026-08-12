@@ -5,6 +5,9 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+
+
+
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         
         def solve(node1, node2):
