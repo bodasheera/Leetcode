@@ -5,7 +5,32 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+
+    # remove global variable
     def sumOfLeftLeaves(self, root: Optional[TreeNode]) -> int:
+
+
+        def solve(node, left):
+
+            # base case
+            if node is None:
+                return 0
+                
+            # base case
+            if left and node.left is None and node.right is None:
+                return node.val
+
+            # hypothesis
+            left = solve(node.left, left = True)
+            right = solve(node.right, left = False)
+
+            # induction
+            return left + right 
+    
+        return solve(root, left=False)
+        
+
+    def sumOfLeftLeaves1(self, root: Optional[TreeNode]) -> int:
         
         self.sum = 0
         def solve(node, left = False):
