@@ -29,6 +29,7 @@ class Solution:
                 while cond > k:
                     counter[nums[i]] = counter.get(nums[i], 0) - 1
                     i += 1
+                    # cond = max(counter.values()) commenting as TLE
                     cond = counter[nums[j]] # basically only current ele is screwing up our logic 
 
                 j += 1
