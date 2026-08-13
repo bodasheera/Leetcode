@@ -11,12 +11,9 @@ class Solution:
         for k, v in count.items():
 
             if v == 1:
+                pos = s.index(k)
+                break
                 
-                for i in range(len(s)):
-
-                    if s[i] == k:
-                        pos = min(pos , i)
-                        break 
 
         return -1 if pos == float('inf') else pos
 
