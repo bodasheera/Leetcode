@@ -12,7 +12,8 @@ class Solution:
 
             count[s[j]] = count.get(s[j], 0) + 1
 
-            cond = max(count.values())
+            #cond = max(count.values()) 
+            cond = count[s[j]]
 
             if cond <= k:
                 res = max(res, j - i + 1)
@@ -23,7 +24,8 @@ class Solution:
                     count[s[i]] -= 1
                     if count[s[i]] == 0:
                         del count[s[i]]
-                    cond = max(count.values())
+                    #cond = max(count.values())
+                    cond = count[s[j]]
                     i += 1
 
                 j += 1
