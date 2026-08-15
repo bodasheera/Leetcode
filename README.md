@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/bodasheera/Leetcode/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/bodasheera/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/bodasheera/Leetcode/tree/master/0090-subsets-ii) |
 | [0198-house-robber](https://github.com/bodasheera/Leetcode/tree/master/0198-house-robber) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/bodasheera/Leetcode/tree/master/0056-merge-intervals) |
 | [0242-valid-anagram](https://github.com/bodasheera/Leetcode/tree/master/0242-valid-anagram) |
 | [0628-maximum-product-of-three-numbers](https://github.com/bodasheera/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/bodasheera/Leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
@@ -319,4 +321,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/bodasheera/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/bodasheera/Leetcode/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
