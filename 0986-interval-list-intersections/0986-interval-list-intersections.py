@@ -29,7 +29,10 @@ class Solution:
             # if interval is over can never intersect with future
             if e1 < e2:
                 i += 1
-            elif e1 >= e2:
+            elif e1 > e2:
+                j += 1
+            elif e1 == e2:
+                i += 1
                 j += 1
 
         return res
