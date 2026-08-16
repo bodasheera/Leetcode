@@ -31,6 +31,7 @@ class Solution:
                 i += 1
             elif e1 > e2:
                 j += 1
+            # both are over so move both forward
             elif e1 == e2:
                 i += 1
                 j += 1
