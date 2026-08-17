@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/bodasheera/Leetcode/tree/master/0518-coin-change-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/bodasheera/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0643-maximum-average-subarray-i](https://github.com/bodasheera/Leetcode/tree/master/0643-maximum-average-subarray-i) |
+| [0695-max-area-of-island](https://github.com/bodasheera/Leetcode/tree/master/0695-max-area-of-island) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/bodasheera/Leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0746-min-cost-climbing-stairs](https://github.com/bodasheera/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0986-interval-list-intersections](https://github.com/bodasheera/Leetcode/tree/master/0986-interval-list-intersections) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/bodasheera/Leetcode/tree/master/0322-coin-change) |
 | [0404-sum-of-left-leaves](https://github.com/bodasheera/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0695-max-area-of-island](https://github.com/bodasheera/Leetcode/tree/master/0695-max-area-of-island) |
 ## Binary Search
 |  |
 | ------- |
@@ -306,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/bodasheera/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0543-diameter-of-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0695-max-area-of-island](https://github.com/bodasheera/Leetcode/tree/master/0695-max-area-of-island) |
 ## Binary Tree
 |  |
 | ------- |
@@ -339,8 +342,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/bodasheera/Leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/bodasheera/Leetcode/tree/master/0695-max-area-of-island) |
 ## Matrix
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/bodasheera/Leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/bodasheera/Leetcode/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
