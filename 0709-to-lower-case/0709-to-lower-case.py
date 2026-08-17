@@ -8,7 +8,7 @@ class Solution:
 
             # caps
             if ord(c) >= ord('A') and ord(c) <= ord('Z'):
-                res  += chr(ord(c) + ord('a') - ord('A') )
+                res  += chr(ord(c) - ord('A') + ord('a') )
 
             else:
                 res += c
