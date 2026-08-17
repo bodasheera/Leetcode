@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/bodasheera/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/bodasheera/Leetcode/tree/master/0090-subsets-ii) |
 | [0198-house-robber](https://github.com/bodasheera/Leetcode/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/bodasheera/Leetcode/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/bodasheera/Leetcode/tree/master/0213-house-robber-ii) |
 | [0239-sliding-window-maximum](https://github.com/bodasheera/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0322-coin-change](https://github.com/bodasheera/Leetcode/tree/master/0322-coin-change) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/bodasheera/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/bodasheera/Leetcode/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/bodasheera/Leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/bodasheera/Leetcode/tree/master/0322-coin-change) |
 | [0404-sum-of-left-leaves](https://github.com/bodasheera/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -300,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/bodasheera/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/bodasheera/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/bodasheera/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0200-number-of-islands](https://github.com/bodasheera/Leetcode/tree/master/0200-number-of-islands) |
 | [0404-sum-of-left-leaves](https://github.com/bodasheera/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0543-diameter-of-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -332,4 +335,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0986-interval-list-intersections](https://github.com/bodasheera/Leetcode/tree/master/0986-interval-list-intersections) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/bodasheera/Leetcode/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/bodasheera/Leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
