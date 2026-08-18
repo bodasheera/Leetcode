@@ -14,12 +14,12 @@ class Solution:
     
             count[nums[j]] = count[nums[j]] + 1
 
-
+            # small window
             if j - i + 1 < k:
                 j += 1
 
+            # yo maintain the window
             elif j - i + 1 == k:
-
 
                 for c in count:
 
