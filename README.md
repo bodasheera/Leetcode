@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/bodasheera/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2974-minimum-number-game](https://github.com/bodasheera/Leetcode/tree/master/2974-minimum-number-game) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/bodasheera/Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
+| [3024-type-of-triangle](https://github.com/bodasheera/Leetcode/tree/master/3024-type-of-triangle) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/bodasheera/Leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3169-count-days-without-meetings](https://github.com/bodasheera/Leetcode/tree/master/3169-count-days-without-meetings) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/bodasheera/Leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2974-minimum-number-game](https://github.com/bodasheera/Leetcode/tree/master/2974-minimum-number-game) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/bodasheera/Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/bodasheera/Leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3024-type-of-triangle](https://github.com/bodasheera/Leetcode/tree/master/3024-type-of-triangle) |
 | [3169-count-days-without-meetings](https://github.com/bodasheera/Leetcode/tree/master/3169-count-days-without-meetings) |
 | [3536-maximum-product-of-two-digits](https://github.com/bodasheera/Leetcode/tree/master/3536-maximum-product-of-two-digits) |
 ## Counting Sort
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2652-sum-multiples](https://github.com/bodasheera/Leetcode/tree/master/2652-sum-multiples) |
 | [2894-divisible-and-non-divisible-sums-difference](https://github.com/bodasheera/Leetcode/tree/master/2894-divisible-and-non-divisible-sums-difference) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/bodasheera/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3024-type-of-triangle](https://github.com/bodasheera/Leetcode/tree/master/3024-type-of-triangle) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/bodasheera/Leetcode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/bodasheera/Leetcode/tree/master/3536-maximum-product-of-two-digits) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/bodasheera/Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
@@ -362,4 +365,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0175-combine-two-tables](https://github.com/bodasheera/Leetcode/tree/master/0175-combine-two-tables) |
 | [0181-employees-earning-more-than-their-managers](https://github.com/bodasheera/Leetcode/tree/master/0181-employees-earning-more-than-their-managers) |
+## Polygons
+|  |
+| ------- |
+| [3024-type-of-triangle](https://github.com/bodasheera/Leetcode/tree/master/3024-type-of-triangle) |
 <!---LeetCode Topics End-->
