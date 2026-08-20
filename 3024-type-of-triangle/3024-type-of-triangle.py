@@ -8,10 +8,7 @@ class Solution:
                 return "none"
         
 
-        uniq = set()
-
-        for n in nums:
-            uniq.add(n)
+        uniq = set(nums)
 
         if len(uniq) == 1:
             return "equilateral"
