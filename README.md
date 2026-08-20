@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/bodasheera/Leetcode/tree/master/0056-merge-intervals) |
+| [0057-insert-interval](https://github.com/bodasheera/Leetcode/tree/master/0057-insert-interval) |
 | [0078-subsets](https://github.com/bodasheera/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/bodasheera/Leetcode/tree/master/0090-subsets-ii) |
 | [0198-house-robber](https://github.com/bodasheera/Leetcode/tree/master/0198-house-robber) |
