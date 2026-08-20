@@ -1,8 +1,42 @@
 class Solution:
 
 
-
     def countDays(self, days: int, meetings: List[List[int]]) -> int:
+        
+        # basically GAP
+
+        meetings.sort(key = lambda x: x[0])
+
+        total = 0
+
+
+        # merge overlapping meetings
+        res = [meetings[0]]
+
+        for i in range(1, len(meetings)):
+            
+            s1, e1 = res[-1]
+            s2, e2 = meetings[i]
+
+            # overlapping logic
+            if s2 <= e1 and s1 <= e2:
+                res.pop()
+                s = min(s1, s2)
+                e = max(e1, e2)
+                res.append([s,e])
+            else:
+                res.append(meetings[i])
+
+        # now meeting is non overlapping by default but called res
+        occupied_days = 0
+        for i in range(0, len(res)):
+            s, e = res[i]
+            occupied_days += e - s + 1
+
+        return days - occupied_days
+
+
+    def countDaysOld(self, days: int, meetings: List[List[int]]) -> int:
         
         # basically GAP
 
