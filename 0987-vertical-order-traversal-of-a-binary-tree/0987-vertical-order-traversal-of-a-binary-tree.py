@@ -15,13 +15,8 @@ class Solution:
             if root == None:
                 return
                 
-
-            # hypothesis
-            solve(root.left,row + 1, col - 1)
-
             col_map[col].append([row, root.val])
-
-
+            solve(root.left,row + 1, col - 1)
             solve(root.right, row + 1, col + 1)
 
         solve(root, 0, 0)
