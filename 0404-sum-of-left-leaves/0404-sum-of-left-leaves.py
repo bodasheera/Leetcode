@@ -7,21 +7,21 @@
 class Solution:
     def sumOfLeftLeaves(self, root: Optional[TreeNode]) -> int:
         
-        def solve(root, direction , total):
+        def solve(root, direction):
 
             if root == None:
-                return total
+                return 0
 
             # leaf
             elif root.left == None and root.right == None:
                 if direction == 'L':
-                    return total + root.val
+                    return root.val
                 else:
-                    return total
+                    return 0
 
-            left = solve(root.left, 'L', total)
-            right = solve(root.right, 'R', total)
+            left = solve(root.left, 'L')
+            right = solve(root.right, 'R')
 
             return left + right
 
-        return solve(root, 'C', 0)
+        return solve(root, 'C')
