@@ -5,47 +5,23 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-
-    # remove global variable
     def sumOfLeftLeaves(self, root: Optional[TreeNode]) -> int:
-
-
-        def solve(node, left):
-
-            # base case
-            if node is None:
-                return 0
-                
-            # base case
-            if left and node.left is None and node.right is None:
-                return node.val
-
-            # hypothesis
-            left = solve(node.left, left = True)
-            right = solve(node.right, left = False)
-
-            # induction
-            return left + right 
-    
-        return solve(root, left=False)
         
+        def solve(root, direction , total):
 
-    def sumOfLeftLeaves1(self, root: Optional[TreeNode]) -> int:
-        
-        self.sum = 0
-        def solve(node, left = False):
+            if root == None:
+                return total
 
-            # base case
-            if node is None:
-                return 0
+            # leaf
+            elif root.left == None and root.right == None:
+                if direction == 'L':
+                    return total + root.val
+                else:
+                    return total
 
-            if left and node.left is None and node.right is None:
-                self.sum += node.val
+            left = solve(root.left, 'L', total)
+            right = solve(root.right, 'R', total)
 
-            # hypothesis
-            solve(node.left, left= True)
-            solve(node.right, left= False)
+            return left + right
 
-
-        solve(root, left=False)
-        return self.sum
+        return solve(root, 'C', 0)
