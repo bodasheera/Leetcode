@@ -7,7 +7,7 @@ class Solution:
         i = k
         while True:
 
-            if i not in nums:
+            if i not in num_set:
                 return i
 
             i += k
