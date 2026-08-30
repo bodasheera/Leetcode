@@ -1,7 +1,43 @@
 from collections import deque
 
 class Solution:
+
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
+        
+        # edge to adjacency list
+        adj = defaultdict(list)
+
+        for u, v in edges:
+            adj[u].append(v)
+            adj[v].append(u)
+
+
+        visited = {source}
+
+        def dfs(node, res):
+            
+            # base case
+            if node == destination:
+                res[0] = True
+
+            # base case
+            if len(adj[node]) == 0:
+                return
+
+            # hypothesis
+            for neighbor in adj[node]:
+                if neighbor not in visited:
+                    visited.add(neighbor)
+                    dfs(neighbor, res)
+
+            return
+
+        res = [False]
+        dfs(source, res)
+
+        return res[0]
+
+    def validPathBFS(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
         
         # edge to adjacency list
         adj = defaultdict(list)
