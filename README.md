@@ -248,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/bodasheera/Leetcode/tree/master/0695-max-area-of-island) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1971-find-if-path-exists-in-graph](https://github.com/bodasheera/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Binary Search
 |  |
 | ------- |
@@ -357,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/bodasheera/Leetcode/tree/master/0695-max-area-of-island) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1971-find-if-path-exists-in-graph](https://github.com/bodasheera/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
 | ------- |
@@ -395,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/bodasheera/Leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/bodasheera/Leetcode/tree/master/0695-max-area-of-island) |
+| [1971-find-if-path-exists-in-graph](https://github.com/bodasheera/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Matrix
 |  |
 | ------- |
@@ -414,5 +417,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [1971-find-if-path-exists-in-graph](https://github.com/bodasheera/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/bodasheera/Leetcode/tree/master/3898-find-the-degree-of-each-vertex) |
 <!---LeetCode Topics End-->
