@@ -14,6 +14,35 @@ class Solution:
 
         visited = {source}
 
+        def dfs(node):
+            
+            # Induction case
+            if node == destination:
+                return True
+
+            # Hypothesis
+            for neighbor in adj[node]:
+                if neighbor not in visited:
+                    visited.add(neighbor)
+                    if dfs(neighbor):
+                        return True
+
+            return False
+
+        return dfs(source)
+
+    def validPathDFSOld(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
+        
+        # edge to adjacency list
+        adj = defaultdict(list)
+
+        for u, v in edges:
+            adj[u].append(v)
+            adj[v].append(u)
+
+
+        visited = {source}
+
         def dfs(node, res):
             
             # base case
