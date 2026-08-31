@@ -248,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/bodasheera/Leetcode/tree/master/0695-max-area-of-island) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1376-time-needed-to-inform-all-employees](https://github.com/bodasheera/Leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
 | [1971-find-if-path-exists-in-graph](https://github.com/bodasheera/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Binary Search
 |  |
@@ -339,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1376-time-needed-to-inform-all-employees](https://github.com/bodasheera/Leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -358,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/bodasheera/Leetcode/tree/master/0695-max-area-of-island) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1376-time-needed-to-inform-all-employees](https://github.com/bodasheera/Leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
 | [1971-find-if-path-exists-in-graph](https://github.com/bodasheera/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
