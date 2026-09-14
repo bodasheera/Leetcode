@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/bodasheera/Leetcode/tree/master/0695-max-area-of-island) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/bodasheera/Leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0746-min-cost-climbing-stairs](https://github.com/bodasheera/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
+| [0905-sort-array-by-parity](https://github.com/bodasheera/Leetcode/tree/master/0905-sort-array-by-parity) |
 | [0986-interval-list-intersections](https://github.com/bodasheera/Leetcode/tree/master/0986-interval-list-intersections) |
 | [1049-last-stone-weight-ii](https://github.com/bodasheera/Leetcode/tree/master/1049-last-stone-weight-ii) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/bodasheera/Leetcode/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/bodasheera/Leetcode/tree/master/0242-valid-anagram) |
 | [0414-third-maximum-number](https://github.com/bodasheera/Leetcode/tree/master/0414-third-maximum-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/bodasheera/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0905-sort-array-by-parity](https://github.com/bodasheera/Leetcode/tree/master/0905-sort-array-by-parity) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/bodasheera/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/bodasheera/Leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/bodasheera/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/bodasheera/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0392-is-subsequence](https://github.com/bodasheera/Leetcode/tree/master/0392-is-subsequence) |
+| [0905-sort-array-by-parity](https://github.com/bodasheera/Leetcode/tree/master/0905-sort-array-by-parity) |
 | [0986-interval-list-intersections](https://github.com/bodasheera/Leetcode/tree/master/0986-interval-list-intersections) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/bodasheera/Leetcode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 ## Number Theory
